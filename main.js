@@ -1,6 +1,6 @@
 function xorEncrypt(data, key) {
     let encrypted = "";
-    key = key + "zVbhsiCROg";
+    key = key + "wE2thvDu4n";
     for (let i = 0; i < data.length; i++) {
         encrypted += String.fromCharCode(data.charCodeAt(i) ^ key.charCodeAt(i % key.length));
     }
@@ -80,5 +80,5 @@ async function fetchGuardokWithEncryptedCookie(url, encryptedCookie, originalGua
 })();
 
 
-//新版本cdnfly通杀密钥 zVbhsiCROg
+//新版本cdnfly通杀密钥 wE2thvDu4n
 //旧版本为PTNo2n3Ev5
